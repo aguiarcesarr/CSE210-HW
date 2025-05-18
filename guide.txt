@@ -1,0 +1,34 @@
+Objects and Classes
+Object: A conceptual model of something (real or imagined) with specific responsibility in a program. Objects have:
+
+State (attributes/data)
+
+Behavior (methods/functions)
+
+Example: A Person object may have:
+
+State: _givenName, _familyName
+
+Behavior: ShowEasternName(), ShowWesternName()
+
+🔹 C# Coding Conventions
+Classes: TitleCase (e.g., Person)
+
+Methods: TitleCase (e.g., ShowWesternName)
+
+Attributes (Member Variables): _underscoreCamelCase (e.g., _givenName)
+
+🔹 Class Diagram (UML Style)
+Person
+
+Attributes:
+
+_givenName : string
+
+_familyName : string
+
+Behaviors:
+
+ShowEasternName() : void
+
+ShowWesternName() : void
